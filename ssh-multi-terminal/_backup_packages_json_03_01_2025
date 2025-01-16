@@ -1,0 +1,22 @@
+{
+  "name": "ssh-multi-terminal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module"
+  "scripts": {
+    "start": "node terminal.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "electron": "^33.2.1",
+    "fs": "^0.0.1-security",
+    "openai": "^4.77.0",
+    "readline": "^1.3.0",
+    "ssh2": "^1.16.0"
+  }
+}
